@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:padding="5dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text=""
+            android:textSize="22sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/tvMenuBottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:text="LEMON"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/btnRemoveBottom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="@drawable/bg_button"
+            android:src="@drawable/baseline_remove_24"/>
+
+        <TextView
+            android:id="@+id/tvQuantyBottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="21"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/btnAddBottom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="@drawable/bg_button"
+            android:src="@drawable/baseline_add_24"/>
+
+        <ImageView
+            android:id="@+id/btnClearBottom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:visibility="gone"
+            android:src="@drawable/baseline_filter_1_24"/>
+
+        <ImageView
+            android:id="@+id/btnSendBottom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:src="@drawable/baseline_send_24"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCatatanListItemBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/tvCatatanBottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:text="Catatan"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/btnRemoveBottom2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"/>
+
+        <ImageView
+            android:id="@+id/btnAddBottom2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"/>
+
+        <ImageView
+            android:id="@+id/btnClearBottom2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/btnSendBottom2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCatatanHistoryBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text=""
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4">
+
+            <ImageView
+                android:id="@+id/imgPersonHistory"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/baseline_person_24"/>
+
+            <TextView
+                android:id="@+id/tvCatatanHistoryBottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catatan"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:layout_marginStart="3dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_toEndOf="@id/imgPersonHistory"/>
+
+            <ImageView
+                android:id="@+id/imgTimeHistory"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/tvCatatanHistoryBottom"
+                android:src="@drawable/baseline_access_time_filled_24"/>
+
+            <TextView
+                android:id="@+id/tvTimeHistoryBottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 Menit"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:layout_marginStart="3dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_toEndOf="@id/imgTimeHistory"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="baby_blue">#FF9DE3FF</color>
+    <color name="orange_yelow">#FFFFD975</color>
+    <color name="orchid_pink">#FFFCCBE1</color>
+    <color name="barbie_pink">#FFD7278B</color>
+    <color name="blue_slate">#FF7F69FD</color>
+    <color name="coquelicot">#FFFD3E00</color>
+    <color name="sea_green">#FF7F69FD</color>
+    <color name="blue_splash">#FF0663F7</color>
+    <color name="grey_light">#F1F1F1</color>
+    <color name="red_dark">#FFD21312</color>
+    <color name="red_light">#FFED2B2A</color>
+    <color name="green_light">#FF80FF52</color>
+    <color name="green_soft">#FF8EE66E</color>
+
+    <color name="ibis_rose">#FF1BC35E</color>
+    <color name="noble_blush">#FFF9C4BA</color>
+    <color name="early_snow">#FFFEF4EA</color>
+    <color name="pastel_magenta">#FF8ABE61</color>
+
+    <color name="blue_them">#FF337CCF</color>
+    <color name="blue_dark_them">#FF1450A3</color>
+
+    <color name="transparant">#00000000</color>
+
+    <integer-array name="custom_tab_colors">
+        <item>@color/blue_dark_them</item>
+        <item>@color/blue_them</item>
+        <item>@color/black</item>
+        <item>@color/white</item>
+        <item>@color/green_light</item>
+    </integer-array>
+</resources>

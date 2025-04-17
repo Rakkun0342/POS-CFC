@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.ProductionActivity">
+
+    <include
+        android:id="@+id/includeLayout"
+        layout="@layout/layout_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.baoyz.widget.PullRefreshLayout
+        android:id="@+id/refreshPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+            android:id="@+id/shimmer_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:shimmer_demo_grid_child_count="3"
+            app:shimmer_demo_layout="@layout/list_transaksi"
+            app:shimmer_demo_shimmer_color="@android:color/white"
+            app:shimmer_demo_layout_manager_type="grid"
+            app:shimmer_demo_child_count="50"
+            app:shimmer_demo_angle="20"
+            tools:listitem="@layout/list_transaksi"
+            />
+
+    </com.baoyz.widget.PullRefreshLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

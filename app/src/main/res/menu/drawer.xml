@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/local_grocery_store_24"
+            android:title="BUAT PESANAN"/>
+
+        <item
+            android:id="@+id/nav_transaksi"
+            android:icon="@drawable/baseline_schedule_send_24"
+            android:title="PENGANTARAN"/>
+
+        <item
+            android:id="@+id/nav_checker"
+            android:icon="@drawable/baseline_checklist_24"
+            android:title="CHECKER"/>
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history_24"
+            android:title="HISTORY"/>
+
+        <item
+            android:id="@+id/nav_open"
+            android:icon="@drawable/baseline_lock_open_24"
+            android:visible="false"
+            android:title="Open Meja"/>
+
+    </group>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_24"
+                    android:title="Logout"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/v_android"
+        android:enabled="false"/>
+</menu>
