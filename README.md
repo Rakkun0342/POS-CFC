@@ -59,9 +59,9 @@
 
 ```bash
 git clone https://github.com/username/POS-CFC.git
+```
 
 ---
-
 ## 📝 License
 
 This project is proprietary and protected by copyright.  
