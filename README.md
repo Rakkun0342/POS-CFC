@@ -46,12 +46,6 @@
 
 ---
 
-## 📸 Screenshot (Opsional)
-
-_Tambahkan tampilan antarmuka dari sisi waiter, dapur, checker, dan payment._
-
----
-
 ## 🎯 Target Pengguna
 
 - Food Court / Kios Makanan
@@ -65,3 +59,14 @@ _Tambahkan tampilan antarmuka dari sisi waiter, dapur, checker, dan payment._
 
 ```bash
 git clone https://github.com/username/POS-CFC.git
+
+---
+
+## 📝 License
+
+This project is proprietary and protected by copyright.  
+All rights reserved © 2025 by **Rakkun0342**.
+
+Unauthorized use, distribution, or modification is strictly prohibited.
+
+For licensing inquiries or collaboration, contact: riskiaskiak@gmail.com
