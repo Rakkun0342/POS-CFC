@@ -65,7 +65,7 @@ git clone https://github.com/username/POS-CFC.git
 ## 📝 License
 
 This project is proprietary and protected by copyright.  
-All rights reserved © 2025 by **Rakkun0342**.
+All rights reserved © 2025 by **rakqun**.
 
 Unauthorized use, distribution, or modification is strictly prohibited.
 
